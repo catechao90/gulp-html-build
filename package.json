@@ -1,11 +1,16 @@
 {
   "name": "gulp-html-build",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "cate <jean.zhao1985@gmail.com> (http://cate.com)",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^0.26.2",
+    "gulp-util": "^3.0.7",
+    "readable-stream": "^2.0.4"
+  }
 }
