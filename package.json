@@ -1,16 +1,45 @@
 {
   "name": "gulp-html-build",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "cate <jean.zhao1985@gmail.com> (http://cate.com)",
+  "author": {
+    "name": "cate",
+    "email": "jean.zhao1985@gmail.com",
+    "url": "http://cate.com"
+  },
   "license": "ISC",
   "dependencies": {
     "fs-extra": "^0.26.2",
     "gulp-util": "^3.0.7",
     "readable-stream": "^2.0.4"
-  }
+  },
+  "_id": "gulp-html-build@1.0.2",
+  "_shasum": "9a24b8e01f8baa0ce72df363bf11c2c1c81b3c53",
+  "_from": "gulp-html-build@*",
+  "_npmVersion": "2.14.2",
+  "_nodeVersion": "4.0.0",
+  "_npmUser": {
+    "name": "cate",
+    "email": "jean.zhao1985@gmail.com"
+  },
+  "dist": {
+    "shasum": "9a24b8e01f8baa0ce72df363bf11c2c1c81b3c53",
+    "size": 1538,
+    "noattachment": false,
+    "tarball": "http://registry.npm.taobao.org/gulp-html-build/download/gulp-html-build-1.0.2.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "cate",
+      "email": "jean.zhao1985@gmail.com"
+    }
+  ],
+  "directories": {},
+  "publish_time": 1450238133617,
+  "_cnpm_publish_time": 1450238133617,
+  "_resolved": "https://registry.npm.taobao.org/gulp-html-build/download/gulp-html-build-1.0.2.tgz"
 }
