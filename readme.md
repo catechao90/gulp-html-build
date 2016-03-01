@@ -1,7 +1,7 @@
 #实现基于gulp的HTML`模块化`开发方式
 
 
-###[示例](https://github.com/catezhao1985/gulp-html-build.git "悬停显示")
+###[示例](https://github.com/catezhao1985/gulp-html-build.git "悬停显示")  https://github.com/catezhao1985/gulp-html-build.git
 
 
 ###gulp中的主要代码如下：
