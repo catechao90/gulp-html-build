@@ -37,19 +37,20 @@ gulp.task('pubilc', function() {
 
 ###html模板
 
-
-###<!DOCTYPE html>  
-###<html lang="en">  
-###<head>  
-###    <title>Document</title>  
-###	<meta charset="UTF-8">  
-###    <meta http-equiv="X-UA-Compatible" content="IE=edge">  
-###    <meta name="viewport" content="width=device-width, initial-scale=1">  
-###</head>  
-###<body>  
-###    <div class="foot">  
-###    	// 模板来自于public下的文件  
-###   	<!--{{foot_toefl.html}}-->  
-###    </div>  
-###</body>  
-###</html>  
+```javascript 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div class="foot">
+    	// 模板来自于public下的文件
+    	<!--{{foot_toefl.html}}-->
+    </div>
+</body>
+</html>
+```
