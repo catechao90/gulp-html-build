@@ -1,4 +1,3 @@
 module.exports = {
-  htmlInsert: require('./lib/html-insert'),
-  generateView: require('./lib/generate-view')
+  htmlInsert: require('./lib/html-insert')
 };
