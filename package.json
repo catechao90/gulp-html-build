@@ -1,7 +1,7 @@
 {
   "name": "gulp-html-build",
-  "version": "1.1.4",
-  "description": "",
+  "version": "1.1.5",
+  "description": "实现基于gulp的HTML模块化开发方式",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
