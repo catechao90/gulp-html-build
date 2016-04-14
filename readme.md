@@ -37,7 +37,7 @@ gulp.task('default', function() {
 <body>
     <div class="foot">
     	// 模板来自于public下的文件
-    	<!--{{foot_toefl.html}}-->
+    	<!--{{foot.html}}-->
     </div>
 </body>
 </html>
