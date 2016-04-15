@@ -50,11 +50,11 @@ gulp.task('default', function() {
     <div class="foot-banner">
         <a href="#"><img src="images/foot-ad.jpg" atl="" title="" /></a>
     </div>
-    <div class="foot-border-bottom-line">       
+    <div class="foot-border-bottom-line">        
         <div class="foot-a-cont">
             <div class="foot-links-title">友情链接</div>
             <div class="clearfix">
-                <div class="set-links-cont-width <!--{{toefl=active}}-->"><a href="#" >雅思考试</a></div>
+                <div class="set-links-cont-width <!--{{toefl=active}}--> <!--{{ielts=aaa}}-->"><a href="#" >雅思考试</a></div>
                 <div class="set-links-cont-width <!--{{ielts=active}}-->"><a href="#" >托福培训</a></div>
                 <div class="set-links-cont-width <!--{{toefl=test.html}}-->"><a href="#" >牛校网</a></div>
             </div>
