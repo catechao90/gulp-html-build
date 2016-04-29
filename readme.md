@@ -10,20 +10,27 @@
 ###引入库  
 
 ```javascript
-var htmlInsert = require('gulp-html-build').htmlInsert;  
+var htmlInsert = require('gulp-html-build').htmlInsert;
+var htmlRename = require('gulp-html-build').htmlRename; 
 ```
 
 ###通过模板生成html页面 
 
-```javascript 
-gulp.task('default', function() {
+```javascript
+gulp.task('insert',function() {
   return gulp.src('src/*.html')
     .pipe(htmlInsert({src:"src/public/"}))    
     .pipe(gulp.dest('build'));
 });
+
+
+gulp.task('default', ['insert'], function() {
+  return gulp.src('build/*.html')
+    .pipe(htmlRename());
+});
 ```
 
-###src/index_ielts.html
+###src/index1--ielts.html （以--后的变量为key）
 
 ```javascript 
 <!DOCTYPE html>
