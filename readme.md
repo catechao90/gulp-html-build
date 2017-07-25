@@ -1,20 +1,20 @@
-#实现基于gulp的HTML`模块化`开发方式
+# 实现基于gulp的HTML`模块化`开发方式
 
 
-###[示例](https://github.com/catezhao1985/gulp-html-build.git "悬停显示")  https://github.com/catezhao1985/gulp-html-build.git
+# [示例](https://github.com/catezhao1985/gulp-html-build.git "悬停显示")  https://github.com/catezhao1985/gulp-html-build.git
 
 
-###gulp中的主要代码如下：
+# gulp中的主要代码如下：
 
 
-###引入库  
+# 引入库  
 
 ```javascript
 var htmlInsert = require('gulp-html-build').htmlInsert;
 var htmlRename = require('gulp-html-build').htmlRename; 
 ```
 
-###通过模板生成html页面 
+# 通过模板生成html页面 
 
 ```javascript
 gulp.task('insert',function() {
@@ -30,7 +30,7 @@ gulp.task('default', ['insert'], function() {
 });
 ```
 
-###src/index1--ielts.html （以--后的变量为key）
+# src/index1--ielts.html （以--后的变量为key）
 
 ```javascript 
 <!DOCTYPE html>
@@ -50,7 +50,7 @@ gulp.task('default', ['insert'], function() {
 </html>
 ```
 
-###src/public/foot.html
+# src/public/foot.html
 
 ```javascript 
 <div class="foot-area">
